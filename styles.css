@@ -131,6 +131,7 @@ p { margin-top: 0; }
 .page-shell { display: grid; grid-template-columns: minmax(0, .72fr) minmax(20rem, 1fr); gap: 1.5rem; align-items: start; }
 .page-media { position: sticky; top: 6rem; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: rgba(255,255,255,.08); box-shadow: 0 24px 80px rgba(0,0,0,.38); }
 .page-media img { width: 100%; min-height: 28rem; max-height: 44rem; object-fit: cover; }
+.page-media-full img { height: auto; min-height: 0; max-height: none; object-fit: contain; object-position: top center; }
 .page-copy { display: grid; gap: 1rem; }
 .feature-panel { padding: 1.1rem; }
 .next-trail { display: flex; justify-content: flex-start; gap: 1rem; flex-wrap: wrap; padding-top: 1rem; }
