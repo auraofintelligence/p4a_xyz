@@ -498,7 +498,7 @@ function Render-StateArchitecturePage {
   <meta name="description" content="P4A $name architecture builder for local council drill-downs, state electorates, bioregions, First Nations protocol maps, public ledgers and state-level civic simulation.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../../styles.css?v=20260509-state-overflow">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-twinkle-video">
 </head>
 <body data-theme="royal" data-state-page="$slug-architecture">
   $header
@@ -659,7 +659,7 @@ function Render-StateConstitutionPage {
   <meta name="description" content="P4A $name constitution builder for state constitutional machinery, parliament, amendment pathways, local government powers, democratic checks and future civic reform.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../../styles.css?v=20260509-state-overflow">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-twinkle-video">
 </head>
 <body data-theme="royal" data-state-page="$slug-constitution">
   $header
@@ -1073,7 +1073,7 @@ $portalHtml = @"
   <meta name="description" content="P4A state and territory portal with live election countdowns, chamber data and state-level civic simulator entry points.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260509-state-overflow">
+  <link rel="stylesheet" href="../styles.css?v=20260509-twinkle-video">
 </head>
 <body data-theme="royal" data-state-page="portal">
   $portalHeader
@@ -1172,7 +1172,7 @@ if ($historyItems.Count -gt 0) {
   <meta name="description" content="P4A state and territory history atlas generated from markdown files with basic and advanced civic history layers.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260509-state-overflow">
+  <link rel="stylesheet" href="../styles.css?v=20260509-twinkle-video">
 </head>
 <body data-theme="royal" data-state-page="history-index">
   $historyHeader
@@ -1275,7 +1275,7 @@ foreach ($state in $states) {
   <meta name="description" content="P4A $name state portal with election countdowns, chamber composition and current government notes.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../styles.css?v=20260509-state-overflow">
+  <link rel="stylesheet" href="../../styles.css?v=20260509-twinkle-video">
 </head>
 <body data-theme="royal" data-state-page="$slug">
   $header
@@ -1407,7 +1407,7 @@ foreach ($state in $states) {
   <meta name="description" content="P4A $name history page with basic and advanced civic timelines generated from markdown data.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../../styles.css?v=20260509-state-overflow">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-twinkle-video">
 </head>
 <body data-theme="royal" data-state-page="$slug-history">
   $historyHeaderLocal
