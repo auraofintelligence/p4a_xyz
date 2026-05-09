@@ -137,7 +137,7 @@ main, section, article, div, p, h1, h2, h3, span, a { min-width: 0; }
 }
 
 .icon-button, .button { min-height: 2.7rem; border-radius: 8px; font: inherit; font-weight: 900; }
-.icon-button { padding: 0 .85rem; border: 1px solid var(--line); background: rgba(255,255,255,.08); color: white; cursor: pointer; }
+.icon-button { display: inline-grid; place-items: center; padding: 0 .85rem; border: 1px solid var(--line); background: rgba(255,255,255,.08); color: white; line-height: 1; text-align: center; cursor: pointer; }
 .button { display: inline-flex; justify-content: center; align-items: center; gap: .55rem; padding: .75rem 1rem; text-decoration: none; border: 1px solid transparent; cursor: pointer; }
 .button-primary { background: linear-gradient(135deg, var(--plasma), var(--violet) 48%, #6727ff); color: white; box-shadow: 0 0 42px rgba(181, 51, 255, .65); }
 .button-secondary { border-color: var(--line); background: rgba(255,255,255,.08); color: white; }
