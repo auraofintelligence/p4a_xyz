@@ -1132,11 +1132,17 @@ body[data-page="housing-simulations"] .builder-form-note {
 body[data-page="housing-simulations"] .source-links {
   margin-top: 1rem;
 }
+body[data-page="housing-simulations"] .housing-question-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 @media (max-width: 1080px) {
   .builder-suite-grid,
   .builder-layout,
   .housing-ladder {
     grid-template-columns: 1fr;
+  }
+  body[data-page="housing-simulations"] .housing-question-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .builder-lane-copy {
     grid-template-columns: 1fr;
@@ -1160,6 +1166,9 @@ body[data-page="housing-simulations"] .source-links {
   .housing-stat strong {
     white-space: normal;
     overflow-wrap: anywhere;
+  }
+  body[data-page="housing-simulations"] .housing-question-grid {
+    grid-template-columns: 1fr;
   }
   .builder-form,
   .builder-output-panel {
